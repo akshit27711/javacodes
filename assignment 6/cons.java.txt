@@ -1,0 +1,37 @@
+class Const
+
+{
+    
+Const()
+    
+{
+        
+System.out.println("Default Constructor");
+    
+}
+    
+Const(int a)
+    
+{
+        
+this();
+        
+System.out.println(a);
+    
+ }
+
+ }
+
+public class Construct
+
+{
+    
+public static void main(String args[])
+    
+{
+        
+Const c=new Const(100);
+    
+}
+
+}
